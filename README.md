@@ -1,6 +1,5 @@
 ![My Remote Image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1920px-International_Pok%C3%A9mon_logo.svg.png)
 
-<h3 align="center">POKEMON UNOFFICIAL</h3>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Dibya12345/pokemon-unofficial?color=56BEB8">
