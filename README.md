@@ -24,7 +24,7 @@
 
 ## :dart: About
 
-Welcome to a classic and retro experience with a Pokémon game played in 8-bit! This throwback to the early days of gaming will take you back to the time when games were simpler, graphics were pixelated, and sound effects were bleeps and bloops. In this game, you'll take on the role of a young Pokémon trainer on a quest to catch and train a variety of Pokémon, explore the game world, and battle gym leaders to earn badges and prove your worth as a trainer. With its nostalgic graphics and classic gameplay mechanics, this 8-bit Pokémon game will provide a unique and memorable gaming experience that will appeal to both long-time fans of the franchise and retro gaming enthusiasts. So grab your Game Boy, fire up your emulator, or load up your favorite 8-bit console, and get ready to catch 'em all in this classic Pokémon adventure!
+Welcome to a classic and retro experience with a Pokémon game played in 8-bit! This throwback to the early days of gaming will take you back to the time when games were simpler, graphics were pixelated, and sound effects were bleeps and bloops. So grab your Game Boy, fire up your emulator, or load up your favorite 8-bit console, and get ready to catch 'em all in this classic Pokémon adventure!
 
 ## :sparkles: Features
 
