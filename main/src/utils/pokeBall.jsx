@@ -1,21 +1,21 @@
-import React, { useRef, useState } from "react";
-import { useFrame, useLoader } from "@react-three/fiber";
+import React, { useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import Ball from "../assets/models/pokeball.gltf";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-
+import { useGLTF } from "@react-three/drei";
 
 export default function PokeBall(props) {
   const meshRef = useRef();
-  const gltf = useLoader(GLTFLoader, Ball);
-
-  useFrame((state, delta) => {
-    meshRef.current.rotation.x += 0.09;
-
+  const { scene } = useGLTF(Ball);
+  
+  useFrame(() => {
+    if (meshRef.current) {
+      meshRef.current.rotation.y += 0.09;
+    }
   });
 
   return (
-    <mesh ref={meshRef}>
-      <primitive object={gltf.scene} scale={1.4} />;
+    <mesh ref={meshRef} scale={1.4}>
+      <primitive object={scene} />
     </mesh>
   );
 }
