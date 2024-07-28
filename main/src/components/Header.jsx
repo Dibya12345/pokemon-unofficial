@@ -5,8 +5,8 @@ function Header() {
   return (
     <header className="header">
       <section className="header_container">
-        <div className="poke_ball">
-          <Canvas>
+        <div className="poke_ball" style={{ height: "100px" }}>
+          <Canvas style={{ width: "80px" }}>
             <PokeBall position={[-1.2, 0, 0]} />
           </Canvas>
         </div>
