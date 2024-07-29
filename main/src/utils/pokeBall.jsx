@@ -6,7 +6,7 @@ import { useGLTF } from "@react-three/drei";
 export default function PokeBall(props) {
   const meshRef = useRef();
   const { scene } = useGLTF(Ball);
-  
+
   useFrame(() => {
     if (meshRef.current) {
       meshRef.current.rotation.y += 0.09;

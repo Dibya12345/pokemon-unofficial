@@ -6,7 +6,12 @@ function Header() {
     <header className="header">
       <section className="header_container">
         <div className="poke_ball" style={{ height: "100px" }}>
-          <Canvas style={{ width: "80px" }}>
+          <Canvas
+            style={{ width: "60px" }}
+            camera={{ position: [0, 0, 5], fov: 75 }}
+          >
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[10, 10, 5]} intensity={1} />
             <PokeBall position={[-1.2, 0, 0]} />
           </Canvas>
         </div>
