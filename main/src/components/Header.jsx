@@ -1,6 +1,9 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import PokeBall from "../utils/pokeBall";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IconContext } from "react-icons";
+
 function Header() {
   return (
     <header className="header">
@@ -22,7 +25,12 @@ function Header() {
             width="40em"
           />
         </div>
-        <ul className="header_menu">hello</ul>
+        <div className="header_hamburger">
+          <IconContext.Provider value={{ color: "blue", size: "1.8em" }}>
+            <GiHamburgerMenu />
+          </IconContext.Provider>
+        </div>
+        <nav className="navbar">Hello</nav>
       </section>
     </header>
   );
