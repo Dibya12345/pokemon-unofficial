@@ -11,3 +11,27 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+.navbar {
+  width: 250px;
+  height: 400px;
+  margin: none;
+  border-radius: 16px;
+  /*background-color: turquoise;*/
+  background: linear-gradient(to top, yellow, #e04700);
+}
+
+.navList {
+  padding: 100px 70px 200px 70px;
+}
+
+.nav-item {
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+h4 {
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+}
